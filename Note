@@ -1,0 +1,37 @@
+1. Data Tidiness
+
+Abridgements
+    The cardinal rules of using spreadsheet programs for data:
+        Leave the raw data raw - do not change it!
+        Put each observation or sample in its own row.
+        Put all your variables in columns - the thing that vary between samples
+        Have column names be explanatory, but without spaces. (-, _, ...)
+        Do not combine multiple pieces of information in one cell.
+        Export the cleaned data to a text-based format like CSV (comma-separated values) format.
+    Tools like OpenRefine can help you clean your data.
+
+Key Points
+    Metadata is key for you and others to be able to work with your data.
+    Tabular data needs to be structured to be able to work with it effectively.
+
+Tryout
+    Cleaning raw data with messy problems, tryout_01.py, tryout_01.xlsx
+
+2. Planning for NGS Projects
+
+Abridgements
+    Guidelines for storing data:
+        Store the data in a place that is accessible by you and other members of your lab. At a minimum, you and the head of your lab should have access.
+        Store the data in a place that is redundantly backed up. It should be backed up in two locations that are in different physical areas.
+        Leave the raw data raw.
+    Some data storage solutions
+        local high performance computing center or data storage facility - Best
+        OR, Back up on hard drives. Have two backups, and keep the hard drives in different physical locations.
+        ALSO, Use resources like Amazon S3, Microsoft Azure, Google Cloud or others for cloud storage
+
+Key Points
+    Data being sent to a sequencing center also needs to be structured so you can use it.
+    Raw sequencing data should be kept raw somewhere, so you can always go back to the original files.
+
+Tryout
+    내일하자
