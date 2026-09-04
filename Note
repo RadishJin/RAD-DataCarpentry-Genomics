@@ -99,5 +99,12 @@ Key Points
 
 
 3. Working with Files and Directories
-    내일하자..
-
+    
+Abridgements
+    *(wildcard) represents any number or any type.
+    "Ctrl+C" will cancel the command you are writing, and give you a fresh prompt.
+    "Ctrl+R" will do a reverse-search through your command history. This is very useful.
+    "Ctrl+L" or the clear command will clear your screen.
+    "history" shows command history
+        !(number) rerun command of the number
+Examining files 부터 다시 읽자
