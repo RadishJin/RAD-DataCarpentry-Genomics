@@ -15,7 +15,8 @@ Key Points
     Tabular data needs to be structured to be able to work with it effectively.
 
 Tryout
-    Cleaning raw data with messy problems, tryout_01.py, tryout_01.xlsx
+    --
+
 
 2. Planning for NGS Projects
 
@@ -34,4 +35,69 @@ Key Points
     Raw sequencing data should be kept raw somewhere, so you can always go back to the original files.
 
 Tryout
-    내일하자
+    --
+
+
+3. Examining Data on the NCBI SRA Database
+
+Key points
+    Public data repositories are a great source of genomic data.
+    You are likely to put your own data on a public repository.
+
+Tryout
+    --
+
+
+Plus. Why we use CLI?
+"There are several reasons to learn how to use the CLI:"
+
+(1): Most bioinformatics tools have no graphical interfaces. they use the CLI/ shell.
+
+(2): CLI allows you to work more efficiently. Repetitive tasks automated. Tedious tasks simplified.
+
+(3): To use remote computers or cloud computing
+
+
+1. Introducing the Shell
+
+Abridgements
+    How to access the Shell? -> Terminal (Mac)
+    Bash(Terminal)
+        pwd : print working directory
+        ls : listing files
+            ls -F : listing files with type such as /(directory), *(executable), @(symbolic link)
+        cd + (name) : change directory
+        man : manual, detailed documentation.
+            "Space" to next page,
+            "b" to go backwards
+            "q" to quit
+        "tab" : automated filling, more press towards to other possible choices
+        "up arrow" : select previous command
+
+    Key Points
+        Useful commands for navigating your file system include: ls, pwd, and cd.
+        Most commands take options (flags) which begin with a -.
+        Tab completion can reduce errors from mistyping and make work more efficient in the shell.
+
+
+2. Navigating Files and Directories
+
+Abridgements
+    Flags can be combined together. ex. "ls -Fa"
+    You can list the contents of any directory by passing its path to ls without changing your current location.
+    Using absolute or relative paths with cd allows you to jump directly to any target folder in a single command.
+    Full Path always starts with /. Relatives doesn't.
+    . : working directory
+    .. : parental directory
+    / : highest class (root directory)
+    ~ : home directory
+
+Key Points
+    The /, ~, and .. characters represent important navigational shortcuts.
+    Hidden files and directories start with . and can be viewed using ls -a.
+    Relative paths specify a location starting from the current location, while absolute paths specify a location from the root of the file system.
+
+
+3. Working with Files and Directories
+    내일하자..
+
